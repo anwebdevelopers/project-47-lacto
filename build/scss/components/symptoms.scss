@@ -1,0 +1,96 @@
+.symptoms {
+    padding: 6rem 0 3rem 0;
+    overflow: hidden;
+}
+.symptoms__container {
+
+}
+.symptoms__box {
+    display: flex;
+}
+.symptoms__img {
+    flex: 0 1 auto;
+    align-self: center;
+    width: 45%;
+    margin: 0 0 0 -8%;
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+.symptoms__content {
+    flex: 0 1 auto;
+    width: 60%;
+    margin: 0 0 0 3%;
+}
+.symptoms__list {
+    margin: 6rem 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+.symptoms__list-item {
+    position: relative;
+    padding:  0 0 0 5rem;
+    margin: 6rem 0 0 0;
+}
+.symptoms__list-icon {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.symptoms__list-text {
+    margin: 0;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ff2626;
+}
+.symptoms__text {
+    margin: 6rem 0 0 0;
+    font-size: 2.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+@media only screen and (max-width : 1400px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .symptoms__box {
+        display: block;
+    }
+    .symptoms__img {
+        margin: 0;
+        width: auto;
+        text-align: center;
+    }
+    .symptoms__content {
+        margin: 4rem 0 0 0;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}

@@ -1,0 +1,136 @@
+.specification {
+    padding: 7rem 0;
+    width: 100%;
+    background-color: #787982;
+    background-image: url(../img/bg-specification.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.specification__container {
+
+}
+.specification__box {
+    display: flex;
+}
+.specification__wrap {
+    flex: 0 1 auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.specification__title {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Panton';
+    color: #fff;
+}
+.specification__info {
+    padding: 5rem 0 0 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    font-weight: 400;
+    color: #fff;
+    li {
+        margin: 2rem 0 0 0;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+.specification__list {
+    flex: 0 1 auto;
+    width: 60%;
+    margin: 0 0 0 5%;
+    padding: 0;
+    list-style: none;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    font-weight: 400;
+    color: #fff;
+    li {
+        margin: 2rem 0 0 0;
+        &:first-child {
+            margin-top: 0;
+        }
+        b {
+            font-weight: 600;
+        }
+    }
+}
+
+.source {
+    padding: 7rem 0;
+    width: 100%;
+    background-color: #fff;
+}
+.source__title {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Panton';
+    color: $blue;
+}
+.source__list {
+    margin: 3rem 0 0 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: myCounter;
+    font-size: 1.4rem;
+    line-height: 1.25;
+    font-weight: 400;
+    li {
+        &:before {
+            counter-increment: myCounter;
+            content: counter(myCounter) ".";
+            margin: 0 .5rem 0 0;
+        }
+    }
+}
+.mfp-close-btn-in .popup .mfp-close {
+    color: $pink;
+    font-size: 50px;
+}
+
+@media only screen and (max-width : 1400px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .specification__box {
+        display: block;
+    }
+    .specification__wrap {
+        width: auto;
+    }
+    .specification__list {
+        width: auto;
+        margin: 4rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}
